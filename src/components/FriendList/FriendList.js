@@ -5,7 +5,11 @@ export const FriendList = props => {
     <ul className="friend-list">
       {props.friends.map(friend => (
         <li className="item" key={friend.id}>
-          <span className="status" data-is-online={friend.isOnline}></span>
+          {/* <span
+            className={
+              isOnline ? friendStyles.statusOnline : friendStyles.statusOffline
+            }
+          ></span> */}
           <img
             className="avatar"
             src={friend.avatar}

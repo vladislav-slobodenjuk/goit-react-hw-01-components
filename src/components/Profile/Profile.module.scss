@@ -1,0 +1,45 @@
+.description {
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  margin: 0px auto 0px auto;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.avatar {
+  margin: 20px 0 20px;
+  width: 150px;
+  border: solid 1px black;
+  border-radius: 50%;
+}
+
+.name,
+.tag,
+.location {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+}
+
+.item {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
