@@ -16,6 +16,10 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladislav-slobodenjuk/goit-react-hw-01-components.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
