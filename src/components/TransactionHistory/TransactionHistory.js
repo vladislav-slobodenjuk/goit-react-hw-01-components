@@ -3,7 +3,7 @@ import s from './TransactionHistory.module.scss';
 
 export const TransactionHistory = props => {
   return (
-    <table class={s.transactionHistory}>
+    <table className={s.transactionHistory}>
       <thead>
         <tr>
           <th>Type</th>
