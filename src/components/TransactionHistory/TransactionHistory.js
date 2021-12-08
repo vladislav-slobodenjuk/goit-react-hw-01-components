@@ -25,7 +25,7 @@ export const TransactionHistory = props => {
   );
 };
 
-TransactionHistory.prototypes = {
+TransactionHistory.propTypes = {
   id: PropTypes.string,
   type: PropTypes.string,
   amount: PropTypes.number,
